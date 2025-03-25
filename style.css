@@ -7,6 +7,10 @@
 }
 
 body {
+  width: 100%;
+  min-width: 320px;
+  max-width: 100vw;
+  overflow: auto;
   background-color: var(--dark-bg);
   color: white;
   font-family: 'Courier New', monospace;
